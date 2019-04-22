@@ -2,3 +2,4 @@ venv
 description-logic
 .idea
 .git
+./tests/test_func.py
