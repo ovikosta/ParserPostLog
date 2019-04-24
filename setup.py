@@ -5,18 +5,13 @@ import parser
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(name='parser-post-log',
-      version=parser.__version__,
-      url='https://github.com/ovikosta/parse-post-log',
-      license='MIT',
+setup(name='parserlog',
+      version='0.1',
       author='OviKosta',
       author_email='ovikosta@gmail.com',
+      url='https://github.com/ovikosta/parse-post-log',
       description='Parse post log.',
       long_description=long_description,
       long_description_content_type="text/markdown",
-      packages=find_packages(exclude=['tests']),
-      classifiers=[
-            "Programming Language :: Python :: 3",
-            "License :: OSI Approved :: MIT License",
-            "Operating System :: OS Independent",
-      ])
+      packages=['parserlog'],
+      zip_safe=False)

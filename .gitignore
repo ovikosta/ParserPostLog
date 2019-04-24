@@ -1,5 +1,11 @@
 venv
+env
+.vscode
 description-logic
 .idea
 .git
 ./tests/test_func.py
+result
+__pycache__
+parserlog.egg-info
+maillog
